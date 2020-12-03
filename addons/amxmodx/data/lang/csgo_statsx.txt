@@ -1,0 +1,79 @@
+[ru]
+HTML_META = <META http-equiv=Content-Type content='text/html;charset=UTF-8'>
+HTML_STYLE = <STYLE>body{background:#4c5844;color:#d8ded3;font-family:sans-serif}table{width:100%%;line-height:160%%;font-size:12px}th{border:1px solid;border-color:#889180 #282e22 #282e22 #889180;background:#4c5844;color:#c4b550;padding-left:5px;font:normal;text-align:left}.q{border:1px solid;border-color:#282e22 #889180 #889180 #282e22}tr{background:#3e4637}</STYLE>
+HTML_TOP_BODY = %s<p></p><center><table cellspacing=0 class=q>
+HTML_TOP_HEADER = <tr><th>#<th>Имя<th>Убил<th>Смертей<th>Попаданий<th>Выстрелов<th>В голову<th>Эфф<th>Акк
+HTML_TOP_TABLE = <tr%s><td>%d<td>%s<td>%d<td>%d<td>%d<td>%d<td>%d<td>%0.1f%%<td>%0.1f%%
+HTML_RANK_BODY = Общая статистика игрока<p></p><table cellspacing=10 cellpadding=0><tr><td width=50%% class=q><table cellspacing=0><tr><th colspan=2>
+HTML_RANK_HEADER = <tr><td>Убито<td>%d (в голову: %d)<tr class=b><td>Смертей<td>%d<tr><td>Попаданий<td>%d<tr class=b><td>Выстрелов<td>%d<tr><td>Общий урон<td>%d<tr class=b><td>Эффективность<td>%0.2f%%<tr><td>Точность<td>%0.2f%%</table><td width=50%% class=q><table cellspacing=0><tr><th colspan=2>Статистика попаданий
+HTML_RANK_TABLE = <tr%s><td>%s<td>%d
+HTML_STATS_BODY = Личная статистика за карту<p></p>
+HTML_STATS_HEADER1 = <table cellspacing=10 cellpadding=0><tr><td valign=top width=20%% class=q><table cellspacing=0 width=100%%><tr><th colspan=2>Статистика<tr><td>Убито<br>Убито в голову<td>%d<br>%d<tr class=b><td>Смертей<td>%d<tr><td>Попаданий<td>%d<tr class=b><td>Выстрелов<td>%d<tr><td>Урон<td>%d<tr class=b><td>Эффективность<td>%0.2f%%<tr><td>Точность<td>%0.2f%%
+HTML_STATS_HEADER2 = </table><td valign=top width=80%% class=q><table cellspacing=0 width=100%%><tr><th>Оружие<th>Убито<th>Смертей<th>Попаданий<th>Выстрелов<th>Урон<th>Точность
+HTML_STATS_TABLE = <tr%s><td>%s<td>%d<td>%d<td>%d<td>%d<td>%d<td>%0.1f%%
+HTML_CLOSE = </table>
+HTML_BOT_TOP = Топ ботов
+HTML_PLAYER_TOP = Топ лучших игроков
+HTML_RANKS_PLAYERS = Топ играющих
+HTML_RANK_IS = %s на %d-ом месте из %d
+HTML_YOU = Вы
+HTML_PLAYER = Игрок
+IN_HEAD = В голову
+IN_CHEST = В грудь
+IN_STOMACH = В живот
+IN_LARM = В левую руку
+IN_RARM = В правую руку
+IN_LLEG = В левую ногу
+IN_RLEG = В правую ногу
+INFORANK_GOOD = Вы поднялись на %i позиций в статистике!
+INFORANK_BAD = Вы опустились на %i позиций в статистике!
+INFORANK_IS = Вы на %i месте из %i (%i убил, %i смертей, %i попал, %0.2f%% эфф, %0.2f%% акк)
+DISABLE_ALIVE_MSG = Данная функция не доступна живому игроку.
+HTML_NAME = Имя
+HTML_KILLS = Убил
+HTML_DEATHS = Смертей
+HTML_HITS = Попаданий
+HTML_SHOTS = Выстрелов
+HTML_HS = В голову
+HTML_EFF = Эфф
+HTML_ACC = Акк
+
+[en]
+HTML_META = <META http-equiv=Content-Type content='text/html;charset=UTF-8'>
+HTML_STYLE = <STYLE>body{background:#4c5844;color:#d8ded3;font-family:sans-serif}table{width:100%%;line-height:160%%;font-size:12px}th{border:1px solid;border-color:#889180 #282e22 #282e22 #889180;background:#4c5844;color:#c4b550;padding-left:5px;font:normal;text-align:left}.q{border:1px solid;border-color:#282e22 #889180 #889180 #282e22}tr{background:#3e4637}</STYLE>
+HTML_TOP_BODY = %s<p></p><center><table cellspacing=0 class=q>
+HTML_TOP_HEADER = <tr><th>#<th>Имя<th>Убил<th>Смертей<th>Попаданий<th>Выстрелов<th>В голову<th>Эфф<th>Акк
+HTML_TOP_TABLE = <tr%s><td>%d<td>%s<td>%d<td>%d<td>%d<td>%d<td>%d<td>%0.1f%%<td>%0.1f%%
+HTML_RANK_BODY = Общая статистика игрока<p></p><table cellspacing=10 cellpadding=0><tr><td width=50%% class=q><table cellspacing=0><tr><th colspan=2>
+HTML_RANK_HEADER = <tr><td>Убито<td>%d (в голову: %d)<tr class=b><td>Смертей<td>%d<tr><td>Попаданий<td>%d<tr class=b><td>Выстрелов<td>%d<tr><td>Общий урон<td>%d<tr class=b><td>Эффективность<td>%0.2f%%<tr><td>Точность<td>%0.2f%%</table><td width=50%% class=q><table cellspacing=0><tr><th colspan=2>Статистика попаданий
+HTML_RANK_TABLE = <tr%s><td>%s<td>%d
+HTML_STATS_BODY = Личная статистика за карту<p></p>
+HTML_STATS_HEADER1 = <table cellspacing=10 cellpadding=0><tr><td valign=top width=20%% class=q><table cellspacing=0 width=100%%><tr><th colspan=2>Статистика<tr><td>Убито<br>Убито в голову<td>%d<br>%d<tr class=b><td>Смертей<td>%d<tr><td>Попаданий<td>%d<tr class=b><td>Выстрелов<td>%d<tr><td>Урон<td>%d<tr class=b><td>Эффективность<td>%0.2f%%<tr><td>Точность<td>%0.2f%%
+HTML_STATS_HEADER2 = </table><td valign=top width=80%% class=q><table cellspacing=0 width=100%%><tr><th>Оружие<th>Убито<th>Смертей<th>Попаданий<th>Выстрелов<th>Урон<th>Точность
+HTML_STATS_TABLE = <tr%s><td>%s<td>%d<td>%d<td>%d<td>%d<td>%d<td>%0.1f%%
+HTML_CLOSE = </table>
+HTML_BOT_TOP = Топ ботов
+HTML_PLAYER_TOP = Топ лучших игроков
+HTML_RANKS_PLAYERS = Топ играющих
+HTML_RANK_IS = %s на %d-ом месте из %d
+HTML_YOU = Вы
+HTML_PLAYER = Игрок
+IN_HEAD = В голову
+IN_CHEST = В грудь
+IN_STOMACH = В живот
+IN_LARM = В левую руку
+IN_RARM = В правую руку
+IN_LLEG = В левую ногу
+IN_RLEG = В правую ногу
+INFORANK_GOOD = Вы поднялись на %i позиций в статистике!
+INFORANK_BAD = Вы опустились на %i позиций в статистике!
+INFORANK_IS = Вы на %i месте из %i (%i убил, %i смертей, %i попал, %0.2f%% эфф, %0.2f%% акк)
+DISABLE_ALIVE_MSG = Данная функция не доступна живому игроку.
+HTML_NAME = Имя
+HTML_KILLS = Убил
+HTML_DEATHS = Смертей
+HTML_HITS = Попаданий
+HTML_SHOTS = Выстрелов
+HTML_HS = В голову
+HTML_EFF = Эфф
+HTML_ACC = Акк
